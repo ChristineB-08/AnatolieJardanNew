@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" href="./images/favicon.png" />
+    <title>I Versi del Grano</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-flex container">
+        <a href="index.html" alt="Go to Home">
+          <img src="images/logo1.svg" alt="I Versi del Grano"
+        /></a>
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#pasta">Pasta Fresca</a>
+            </li>
+            <li>
+              <a href="#eccellenza">Eccellenza</a>
+            </li>
+            <li>
+              <a href="#autore">Autore</a>
+            </li>
+            <li>
+              <a href="#esperienza">Esperienza</a>
+            </li>
+            <li>
+              <a href="mailto:jardananatolie@gmail.com">Contatti</a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009572993179"
+                target="_blanck"
+              >
+                <i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/mano_warrior/"
+                target="_blanck"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <!-- Hamburger button -->
+          <div class="mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <!-- Mobile Menu Items -->
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#pasta">Pasta Fresca</a>
+              </li>
+              <li>
+                <a href="#eccellenza">L'Eccellenza</a>
+              </li>
+              <li>
+                <a href="#autore">Autore</a>
+              </li>
+              <li>
+                <a href="#esperienza">Esperienza</a>
+              </li>
+              <li>
+                <a href="mailto:jardananatolie@gmail.com">Contatti</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009572993179"
+                  target="_blanck"
+                >
+                  <i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/mano_warrior/"
+                  target="_blanck"
+                >
+                  <i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <header class="hero">
+      <div class="container hero-flex">
+        <div class="hero-content">
+          <h1>I Versi del Grano</h1>
+          <p>Ogni tipo di pasta è un verso da gustare!</p>
+        </div>
+        <img src="images/main.svg" alt="hero" />
+      </div>
+      <svg
+        class="frame-decoration"
+        data-name="Layer 2"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1920 192.275"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #ffffff;
+            }
+          </style>
+        </defs>
+        <title>frame-decoration</title>
+        <path
+          class="cls-1"
+          d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+          transform="translate(0 -158.755)"
+        />
+      </svg>
+    </header>
+    <!-- Swiper -->
+    <section class="pasta" id="pasta">
+      <div class="container">
+        <div class="section-header">
+          <h2>Poesie in ogni chicco di grano...</h2>
+          <div class="heading-border"></div>
+          <p>
+            "La cucina è un atto d'amore. Ogni piatto che preparo è un pezzo
+            della mia anima, un modo per dire ciò che le parole non possono
+            esprimere. Attraverso il cibo, posso farvi sentire il mio amore, la
+            mia rabbia, la mia tristezza. Ogni ingrediente è scelto con cura,
+            ogni gesto è un rituale sacro."
+          </p>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/type-1.png" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-2.png" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-3.jpg" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-4.png" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-5.png" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-6.jpg" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-7.png" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-8.png" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-9.jpg" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-10.jpg" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-11.jpg" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-12.jpg" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-13.jpg" alt="tipo di pasta" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/type-14.jpg" alt="tipo di pasta" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eccellenza Section-->
+    <section class="eccellenza section" id="eccellenza">
+      <div class="container">
+        <div class="section-header">
+          <h2>L'Eccellenza!</h2>
+          <div class="heading-border"></div>
+          <p>
+            "La cucina è un'arte, e come ogni arte, richiede passione, dedizione
+            e rispetto per ogni singolo ingrediente. Solo quando ogni elemento è
+            trattato con cura e amore, si può raggiungere l'armonia e la
+            perfezione in un piatto."
+          </p>
+        </div>
+        <div class="eccellenza-cards">
+          <div class="card">
+            <img src="images/passo_1.jpg" alt="Passo 1" />
+            <h3>La Qualità degli Ingredienti</h3>
+            <p>
+              La qualità degli ingredienti è il fondamento di ogni grande
+              piatto. Non puoi nascondere la mediocrità con la tecnica: un
+              ingrediente eccellente parla da sé e trasforma un semplice pasto
+              in un'esperienza indimenticabile.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/passo_2.jpg" alt="Passo 2" />
+            <h3>La Professionalità</h3>
+            <p>
+              La precisione è l'anima della professionalità. Ogni gesto, ogni
+              misura, ogni attenzione ai dettagli è ciò che separa l'ordinario
+              dallo straordinario. Solo con disciplina e dedizione si può
+              raggiungere l'eccellenza.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/passo_3.jpg" alt="Passo 3" />
+            <h3>L'Eccellenza</h3>
+            <p>
+              <br />
+              Michelangelo Buonarroti: <br />
+              "Il più grande pericolo per la maggior parte di noi non è che il
+              nostro obiettivo sia troppo alto e lo manchiamo, ma che sia troppo
+              basso e lo raggiungiamo."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- La Filosofia -->
+    <section class="details section" id="autore">
+      <div class="container details-flex">
+        <img src="images/Vector-4.svg" alt="Filosofia" />
+        <div class="details-content">
+          <h2>La Filosofia</h2>
+          <div class="heading-border"></div>
+          <p>
+            Auguste Escoffier: <br />
+            "La cucina è l'arte di trasformare istinto e passione in eleganza.
+            La perfezione non è fare cose straordinarie, ma fare cose ordinarie
+            in modo straordinario."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Autore -->
+    <section class="details section" id="autore">
+      <div class="container details-flex">
+        <img src="images/Vector-3.svg" alt="Autore" />
+        <div class="details-content">
+          <h2>
+            L'autore dei Piatti <br />
+            Anatolie Jardan
+          </h2>
+          <div class="heading-border"></div>
+          <p>
+            "La creatività non è libertà senza regole. La vera innovazione nasce
+            dalla disciplina ossessiva verso il dettaglio."
+          </p>
+          <ul>
+            <li>
+              <i class="fas fa-chevron-circle-right text-primary"></i
+              ><strong> Precisione: </strong> "La cucina è una scienza esatta:
+              un grammo in più o un secondo in meno possono trasformare un
+              capolavoro in un fallimento."
+            </li>
+            <li>
+              <i class="fas fa-chevron-circle-right text-primary"></i
+              ><strong>Creatività:</strong> "L’innovazione nasce dalla
+              padronanza delle regole, non dalla loro rottura. Solo chi conosce
+              la tradizione può rivoluzionarla."
+            </li>
+            <li>
+              <i class="fas fa-chevron-circle-right text-primary"></i
+              ><strong>Resilienza:</strong> "Il fallimento è il miglior
+              insegnante: un piatto bruciato oggi è la base di una ricetta
+              immortale domani."
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Esperienza -->
+    <section class="esperienza section" id="esperienza">
+      <div class="container esperienza-flex">
+        <div class="swiper1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/esp-1.jpg" alt="autore" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-2.jpg" alt="tipo di pasta" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-3.jpg" alt="tipo di pasta" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-4.jpg" alt="tipo di pasta" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-5.jpg" alt="tipo di pasta" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-6.jpg" alt="tipo di pasta" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-7.jpg" alt="tipo di pasta" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-8.jpg" alt="tipo di pasta" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-9.jpg" alt="tipo di pasta" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/esp-10.jpg" alt="tipo di pasta" />
+            </div>
+          </div>
+        </div>
+        <div class="anni">
+          <div class="esperienza-numbers">
+            <div>
+              <h3>4 Anni</h3>
+              <p>Mioni Pezzatto & Spa</p>
+            </div>
+            <div>
+              <h3>4 Anni</h3>
+              <p>Esplanade Tergesteo</p>
+            </div>
+          </div>
+          <p class="esperienza-text">
+            "Nella vita non c’è nulla da temere, solo da capire. È arrivato il
+            momento di capire di più, per temere di meno, e per dare tutto ciò
+            che si è imparato."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container footer-flex">
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="mailto:jardananatolie@gmail.com">Contatti</a>
+          </li>
+        </ul>
+        <p>&copy; 2025 Anatolie Jardan. All rights reserved</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
