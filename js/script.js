@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const mobileMenu = document.querySelector('.navbar .mobile-menu-items');
   const menuItems = document.querySelectorAll('.navbar .mobile-menu-items a');
 
+  console.log('Script loaded and event listeners added.');
+
   toggleButton.addEventListener('click', function () {
     mobileMenu.classList.toggle('active');
   });
