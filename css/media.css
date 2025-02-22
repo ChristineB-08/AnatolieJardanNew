@@ -117,6 +117,10 @@
     max-width: 350px;
   }
 
+  .swiper1 {
+    height: 500px;
+  }
+
  .swiper1 .swiper-slide {
   width: 250px;
   height: 500px;
