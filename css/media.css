@@ -18,14 +18,8 @@
     margin-left: 0;
   }
 
-  .swiper1 {
-    width: 100%;
-    height: 500px;
-  }
-
-  .swiper1 .swiper-slide img {
-    width: 100%;
-    height: 500px;
+  .footer ul {
+    margin: 0;
   }
 }
 
@@ -70,10 +64,6 @@
 }
 
 @media (max-width: 768px) {
-  .navbar img {
-    margin-left: -1rem;
-  }
-
   .main-menu-items {
     display: none;
   }
@@ -106,6 +96,11 @@
   .info-left {
     display: none;
   }
+
+  .footer-flex {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -123,10 +118,6 @@
   }
 
   .esperienza .esperienza-numbers {
-    flex-direction: column;
-  }
-
-  .footer-flex {
     flex-direction: column;
   }
 }
