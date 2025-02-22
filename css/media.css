@@ -97,10 +97,6 @@
     display: none;
   }
 
-  .swiper1 {
-    height: 500px;
-  }
-
   .footer-flex {
     flex-direction: column;
     text-align: center;
@@ -119,6 +115,10 @@
 
   .hero img {
     max-width: 350px;
+  }
+
+   .swiper1 {
+    height: 400px;
   }
 
   .esperienza .esperienza-numbers {
