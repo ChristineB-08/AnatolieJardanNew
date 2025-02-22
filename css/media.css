@@ -117,9 +117,10 @@
     max-width: 350px;
   }
 
-   .swiper1 {
-    height: 400px;
-  }
+ .swiper1 .swiper-slide {
+  width: 250px;
+  height: 400px;
+}
 
   .esperienza .esperienza-numbers {
     flex-direction: column;
